@@ -1,0 +1,558 @@
+/* ======================= start roots ======================= */
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500;600&family=Comfortaa:wght@300;400;500;600;700&family=Encode+Sans:wght@700&family=Nanum+Gothic:wght@400;700;800&family=Poppins:wght@400;500;600;700&family=Tajawal:wght@300;400;500;800&display=swap");
+* {
+  font-family: "Cairo", sans-serif;
+}
+body {
+  background-color: #faf6f2;
+}
+.hedOne {
+  font-weight: 600;
+  font-size: 20px;
+}
+a:hover {
+  text-decoration: none;
+}
+h5 {
+  color: #a91a44;
+}
+.fa-star {
+  color: #dca620;
+}
+.fa-circle {
+  font-size: 13px;
+  color: #00c600;
+}
+.fa-bolt {
+  color: #ef266a;
+}
+/* btns */
+.BtnForm {
+  background-color: #ef266a;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+.BtnForm:hover {
+  color: #000;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+.ankhorLink {
+  color: #a91a44;
+  font-size: 20px;
+}
+.btn {
+  background-color: #ef266a;
+  color: #fff;
+  border-radius: 16px;
+  font-weight: bold;
+}
+.ArticlBtn {
+  background-color: #ef266a;
+  color: #fff;
+  width: 50%;
+  border: 0;
+  padding: 8px;
+  font-weight: bolder;
+}
+.ArticlBtn:hover {
+  transition: all 0.3s;
+  color: #000;
+  font-weight: bolder;
+}
+.details {
+  font-size: 25px !important;
+  color: #000;
+}
+.details:hover {
+  color: #000;
+}
+.HelpBtn {
+  width: 10%;
+  padding: 10px;
+  color: #fff;
+  border: 0;
+  background-color: #ef266a;
+}
+
+.SearchButton {
+  margin-top: 30px;
+  background-color: #a91a44;
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+  padding: 10px 20px;
+}
+.search {
+  background-color: #ef266a;
+  color: #fff;
+  border: 0;
+  padding: 8px 20px;
+  font-weight: bolder;
+}
+hr {
+  background-color: #a91a44;
+}
+.BtnCenter {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-weight: bold;
+  transition: all 0.3s;
+  margin: 5px;
+}
+.BtnCenter:hover {
+  transition: all 0.3s;
+  background-color: #1e4d29;
+  border: 1px solid #1e4d29;
+  color: #fff;
+  font-weight: bold;
+}
+.SearchForMen {
+  background-color: #faf6f2;
+  margin-top: 40px;
+}
+.jumbotron {
+  background-color: #fff;
+  border-radius: 16px;
+}
+.lead {
+  font-size: 20px;
+  line-height: 2 !important;
+}
+/* ======================= end roots ======================= */
+
+/* START NAVBAR */
+.navbar {
+  background-color: #fff !important;
+  border-bottom: 1px solid #a91a44;
+}
+.NavbarBox {
+  position: fixed;
+  top: 0px;
+  right: 110px;
+  width: 200px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 10px;
+  z-index: 10000000;
+}
+.NavbarLogo {
+  width: 190px;
+}
+/* END NAVBAR */
+
+/* START HOME PAGE */
+.carousel {
+  margin-top: 56px !important;
+}
+.BoxRight {
+  position: absolute;
+  top: 40px;
+  right: 5px;
+  display: flex;
+  justify-content: right;
+  width: 40%;
+}
+.ImgWeeding {
+  width: 70%;
+}
+.BoxLeft {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  display: flex;
+  justify-content: left;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.ItemBox {
+  padding: 80px;
+}
+/* END HOME PAGE */
+
+/* START WOMEN CARDS */
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.LinkCard {
+  text-decoration: none;
+  color: #000;
+}
+
+.LinkCard:hover {
+  text-decoration: none;
+  color: #000;
+}
+.UserCard {
+  height: 75%;
+  border-radius: 6px;
+  border: 2px solid #fff;
+}
+.FeautreBox {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.FeautreBox ul {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.boxOne {
+  background-color: #ffcbd7;
+  color: #a91a44;
+}
+.boxTwo {
+  background-color: #f7dee3;
+  color: #a91a44;
+}
+.boxThree {
+  background-color: #fdebef;
+  color: #a91a44;
+}
+.BridImg {
+  position: relative;
+}
+.FlagBox {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.FlagBox img {
+  width: 35px !important;
+  border-top-left-radius: 40px;
+}
+.LocationBox {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #2d6828;
+  padding: 1px 5px;
+  color: #fff;
+  border-bottom-left-radius: 12px;
+}
+.TxtLocation {
+  font-weight: bold;
+  text-align: center;
+  font-size: 12px;
+}
+.OnlineIcon {
+  position: absolute;
+  top: 2px;
+  left: 5px;
+}
+.CrownBox {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.CrownBox img {
+  width: 35px;
+  text-align: right;
+}
+/* END WOMEN CARDS */
+
+/* START SECTION OF BUTTONS + FOOTER */
+.section {
+  padding: 0;
+}
+.RowFooter {
+  display: flex;
+  justify-content: space-between;
+}
+.WebTags li {
+  display: inline-block;
+  margin: 0px 10px;
+  background-color: #fdebef;
+  padding: 1px 5px;
+  border-radius: 5px;
+  font-size: 13px;
+}
+.FooterLinks li {
+  display: inline-block;
+  margin: 0px 10px;
+}
+.FooterLinks li a {
+  color: #000;
+  font-size: 18px;
+}
+.FooterLinks li a:hover {
+  color: #ef266a !important;
+}
+/*  */
+.FooterLogo {
+  text-align: right;
+  width: 130px;
+}
+.ConditionAnkor {
+  color: #fff;
+}
+.ConditionAnkor:hover {
+  color: #fff;
+}
+/* END SECTION OF BUTTONS + FOOTER */
+/* START LAST FOOTER */
+.LastFooter {
+  margin-top: -50px;
+  height: 50px;
+  background-color: #1e4d29;
+}
+.RowLastFooter {
+  display: flex;
+  justify-content: space-between;
+}
+.txtFooter p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #fff;
+}
+/* END LAST FOOTER */
+
+/* HOME PAGE ABSOLUTELY DONE */
+
+/* START ARTICLES */
+.ArticeFSection {
+  padding: 0;
+  margin: 0;
+}
+/* medi query */
+.ArticlBg {
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+.ArticleCardbrdr {
+  border-bottom: 4px solid #ef266a;
+}
+.ArticlRow .col {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.ArticleHead2 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #a91a44;
+}
+.ConditionsHead2 {
+  position: absolute;
+  top: 25%;
+  right: 30%;
+  color: #a91a44;
+}
+.MoreWomenHead2 {
+  position: absolute;
+  top: 25%;
+  right: 46%;
+}
+/* media query */
+
+/* END ARTICLES */
+
+/* START HELP PAGE */
+.HelpImg img {
+  width: 130px;
+}
+/* END HELP PAGE */
+
+/* START GIRL + BOY PAGES */
+.DetailedSearch {
+  margin-top: 200px;
+}
+.HeadGirl {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #a91a44;
+}
+.FormRow {
+  background-color: #a91a44;
+  border-radius: 15px;
+  color: #fff;
+  padding: 10px;
+}
+.GirlForm {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* media query */
+/* END GIRL PAGE */
+/* START MORE WOMEN PAGE */
+.MoreWomenContainer {
+  border-radius: 15px;
+}
+.brdrCard {
+  border: 0px;
+}
+/* END MORE WOMEN PAGE */
+/* START PROFILE PAGE */
+.ProfileBordr {
+  border: 0;
+}
+.ProfileUl li {
+  background-color: #f4f4f4;
+  width: 100%;
+  padding: 20px 30px;
+  margin: 20px 0;
+}
+.ProfileUl li a {
+  color: gray;
+  font-weight: bold;
+}
+.ProfileUl li:hover {
+  transition: all 0.3s;
+  background-color: #ffcbd7;
+}
+/* END PROFILE PAGE */
+/* START VIEW PROFILE */
+.UserName {
+  margin-top: 10px;
+  color: #a91a44;
+  font-size: 20px;
+}
+.BoldPoint {
+  color: #a91a44;
+}
+.ViewProfileUl {
+  text-align: center;
+}
+.ViewProfileUl li {
+  display: inline-block;
+  margin: 10px 30px;
+  cursor: pointer;
+}
+.ViewProfileUl li a {
+  color: #a91a44;
+  font-size: 20px;
+}
+/* END VIEW PROFILE */
+/* ============================= ID'S ============================= */
+#bgTxtGotMarried {
+  background-color: #fff;
+  padding: 5px;
+}
+/* media query height = 87% */
+/* ============================= ID'S ============================= */
+/* media query for index */
+@media screen and (max-width: 992px) {
+  .NavbarBox {
+    display: none;
+  }
+  .ImgWeeding {
+    position: absolute;
+    top: -40px;
+    right: 50px;
+    display: flex;
+    justify-content: right;
+    width: 75%;
+  }
+  .BoxLeft {
+    display: none;
+  }
+  .flower img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .headQuery {
+    font-size: 22px;
+  }
+  .headQuery b {
+    color: #a91a44;
+  }
+  .UserCard {
+    height: 70%;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .FeautreBox {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .hedOne {
+    color: #a91a44;
+  }
+  .parghrafQuery {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .parghrafQueryTwo {
+    font-size: 15px;
+    color: #a91a44;
+    font-weight: bold;
+  }
+  .WebTags {
+    margin-right: -30px;
+  }
+  .WebTags li {
+    display: inline-block;
+    margin: 0px;
+    background-color: #a91a44;
+    padding: 1px 8px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+  .FooterLogo {
+    text-align: right;
+    width: 100px;
+  }
+  .FooterLinks li {
+    display: inline-block;
+    margin: 0px 5px;
+  }
+  .FooterLinks li a {
+    color: #000;
+    font-size: 13px;
+  }
+  .FooterLinks li a:hover {
+    color: #ef266a !important;
+  }
+  .LastFooter {
+    margin-top: -50px;
+    height: 50px;
+    background-color: #1e4d29;
+  }
+  .RowLastFooter {
+    display: flex;
+    justify-content: space-between;
+  }
+  .txtFooter p {
+    margin-top: -20px;
+    font-size: 12px;
+    color: #fff;
+  }
+  .ConditionAnkor {
+    font-size: 12px;
+  }
+  /* Articles */
+  .ArticleHead2 {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .conditionLabel {
+    font-size: 15px;
+  }
+  /* Login */
+  .txtLogin {
+    display: none;
+  }
+  .imgSocial img {
+    width: 80%;
+  }
+  /* SearchDetails */
+  .boyImgs {
+    width: 100px;
+  }
+}
+/* Pagenation */
